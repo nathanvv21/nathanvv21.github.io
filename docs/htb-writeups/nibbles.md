@@ -18,4 +18,5 @@ The Page at /nibbleblog/ shows an empty blog page.
 <img src="https://user-images.githubusercontent.com/96850362/230315021-75ded80c-fb15-4e2a-99ec-e2af9a0cb0c9.png" alt="/nibbleblog page" style="border: 2px solid black; max-width: 800px; max-height: 600px;">  
   
 <span style="font-size: 15pt; color: #4EEEE6;">/nibbleblog</span>  
-<code class="language-plaintext highlighter-rouge">/nibbleblog/content</code>
+<code class="language-plaintext highlighter-rouge">/nibbleblog/content</code>  
+<span style="background-color: black">This text has a black background.</span>
