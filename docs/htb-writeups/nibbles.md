@@ -14,9 +14,15 @@ If we look at the source of the page however, a hidden message is revealed.
   
 <span style="font-size: 15pt; color: #4EEEE6;">/nibbleblog</span>  
 
-The Page at /nibbleblog/ shows an empty blog page.  
+The Page at <span style="background-color: black">/nibbleblog/.</span> shows an empty blog page.  
 <img src="https://user-images.githubusercontent.com/96850362/230315021-75ded80c-fb15-4e2a-99ec-e2af9a0cb0c9.png" alt="/nibbleblog page" style="border: 2px solid black; max-width: 800px; max-height: 600px;">  
   
-<span style="font-size: 15pt; color: #4EEEE6;">/nibbleblog</span>  
-<code class="language-plaintext highlighter-rouge">/nibbleblog/content</code>  
-<span style="background-color: black">This text has a black background.</span>
+<span style="font-size: 15pt; color: #4EEEE6;">gobuster</span>  
+Use gobuster to search for interesting directories  
+  
+<img src="https://user-images.githubusercontent.com/96850362/230331724-f9675ca2-564f-42b9-a447-53f90bd6bc77.png" alt="/nibbleblog page" style="border: 2px solid black; max-width: 800px; max-height: 600px;">  
+The path <span style="background-color: black">/nibbleblog/content.</span> is a good place to start.  
+Content lists the directories so we can navigate to find <span style="background-color: black">/nibbleblog/content/private/user.xml</span> which shows users an IPs.  
+<img src="https://user-images.githubusercontent.com/96850362/230332599-007a60b7-423f-4539-845b-771b3f56de17.png" alt="/nibbleblog page" style="border: 2px solid black; max-width: 800px; max-height: 600px;">  
+
+
