@@ -49,19 +49,26 @@ Now we have user.txt flag.
 
 <span style="font-size: 17pt; color: #F70D0D;">Root</span>  
   
-First thing to check is the user's sudo privilege:  
+First thing to check is the user's sudo privilege:<br>
+<br>
 <img src="https://user-images.githubusercontent.com/96850362/230357753-3f2df4bd-5c2a-4c74-96a4-bd3832f604c1.png" style="border: 2px solid black; max-width: 800px; max-height: 600px;">  
-We can run <span style="background-color: black"> monitor.sh </span> without a password.  
+<br>
+We can run <span style="background-color: black"> monitor.sh </span> without a password. 
+<br>
 Checking the permissions of the file shows that it is writable:  
 <img src="https://user-images.githubusercontent.com/96850362/230358656-9ab95934-6e3b-4668-802c-da1ccedacc2d.png" style="border: 2px solid black; max-width: 800px; max-height: 600px;">  
+<br>
 Just overwrite the script with a simple reverse shell gets the job done:  
+<br>
 <img src="https://user-images.githubusercontent.com/96850362/230361167-75fe6307-ed50-4fc2-92be-a7ece1fbaa47.png" style="border: 2px solid black; max-width: 800px; max-height: 600px;">  
+<br>
 Next Setup the netcat listener like "nc -lvnp 4242"  
 Then run <span style="background-color: black"> monitor.sh </span> to get the root shell.  
 <img src="https://user-images.githubusercontent.com/96850362/230361706-5aba6fcd-bfca-491e-bf6f-489a294e4dd7.png" style="border: 2px solid black; max-width: 800px; max-height: 600px;">  
   
   
 <img src="https://user-images.githubusercontent.com/96850362/230362021-10685736-5d8c-4df5-adc0-23b020c4a86d.png" style="border: 2px solid black; max-width: 800px; max-height: 600px;">  
+<br>
 Now all that is left to do is read the root flag from <span style="background-color: black"> root.txt </span>
 
 
