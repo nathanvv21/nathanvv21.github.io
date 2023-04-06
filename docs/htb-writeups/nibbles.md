@@ -39,11 +39,16 @@ With a little bit of guess work, we can log in with the password "nibbles"
   
 To exploit this box we need to navigate to the plugins page to activate the "My image" plugin  
 <img src="https://user-images.githubusercontent.com/96850362/230354032-a9fb3256-cb43-4e2c-aeb4-ee11e3feefba.png" style="border: 2px solid black; max-width: 800px; max-height: 600px;">  
+<br>
 Clicking on "configure" under the "My image" plugin allows us to upload a file.  
+<br>
 <img src="https://user-images.githubusercontent.com/96850362/230354400-49a32320-338f-47e0-9a7f-166632eec553.png" style="border: 2px solid black; max-width: 800px; max-height: 600px;">  
+<br>
 We can then upload a php reverse shell and ignore the warnings.  
+<br>
 Set up a netcat listener like "nc -lvnp 4444".  
 Then navigate to <span style="background-color: black"> http://X.X.X.X/nibbleblog/content/private/plugins/my_image/image.php </span> which will connect your shell back to the netcat listener.  
+<br>
 <img src="https://user-images.githubusercontent.com/96850362/230355777-75923f39-5c0f-46db-a3c7-0e47df27dff7.png" style="border: 2px solid black; max-width: 800px; max-height: 600px;">  
 Now we have user.txt flag.  
 
