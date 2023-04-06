@@ -1,4 +1,5 @@
-Overview placeholder  
+The Nibbles box is running a vulnerable version of [Nibbleblog](http://www.nibbleblog.com/) which can be exploited for user access. Privesc to root abuses sudo on a file that has lax permissions.  
+<br>
   
 <span style="font-size: 17pt; color: #4EEEE6;">Nmap</span>  
   
