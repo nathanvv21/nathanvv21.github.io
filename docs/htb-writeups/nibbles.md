@@ -34,6 +34,22 @@ The gobuster search revealed <span style="background-color: black">/admin.php</s
 <img src="https://user-images.githubusercontent.com/96850362/230343601-32cb3133-159b-40d8-a7a0-16edc8b68dc4.png" alt="/nibbleblog page" style="border: 2px solid black; max-width: 800px; max-height: 600px;">  
 With a little bit of guess work, we can log in with the password "nibbles"  
 <img src="https://user-images.githubusercontent.com/96850362/230344323-e017da13-ddcd-425c-90bb-c69a439b34b5.png" style="border: 2px solid black; max-width: 800px; max-height: 600px;">  
+  
+<span style="font-size: 15pt; color: #4EEEE6;">Shell</span>  
+  
+To exploit this box we need to navigate to the plugins page to activate the "My image" plugin  
+<img src="https://user-images.githubusercontent.com/96850362/230354032-a9fb3256-cb43-4e2c-aeb4-ee11e3feefba.png" style="border: 2px solid black; max-width: 800px; max-height: 600px;">  
+Clicking on "configure" under the "My image" plugin allows us to upload a file.  
+<img src="https://user-images.githubusercontent.com/96850362/230354400-49a32320-338f-47e0-9a7f-166632eec553.png" style="border: 2px solid black; max-width: 800px; max-height: 600px;">  
+We can then upload a php reverse shell and ignore the warnings.  
+Set up a netcat listener like "nc -lvnp 4444"  
+Then navigate to <span style="background-color: black">http://*.*.*.*/nibbleblog/content/private/plugins/my_image/image.php</span> which will connect your shell back to the netcat listener.  
+<img src="https://user-images.githubusercontent.com/96850362/230355777-75923f39-5c0f-46db-a3c7-0e47df27dff7.png" style="border: 2px solid black; max-width: 800px; max-height: 600px;">  
+
+
+
+
+
 
 
 
