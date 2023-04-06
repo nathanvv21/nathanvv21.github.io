@@ -1,9 +1,9 @@
 Overview placeholder  
-<span style="font-size: 15pt; color: #4EEEE6;">Nmap.</span>  
+<span style="font-size: 17pt; color: #4EEEE6;">Nmap.</span>  
 The nmap scan on showed http (80) and ssh (22)  
 ![image](https://user-images.githubusercontent.com/96850362/230301039-3d359d04-42aa-4194-9a7d-1b8d48d676d8.png)  
   
-<span style="font-size: 15pt; color: #4EEEE6;">Port 80 Recon.</span>  
+<span style="font-size: 17pt; color: #4EEEE6;">Port 80 Recon</span>  
 
 The web page only shows the simple message "Hello World!" .  
 <img src="https://user-images.githubusercontent.com/96850362/230306767-c0910d88-e6a4-4d41-8df9-19aa5a31a4d7.png" alt="hello world" style="border: 2px solid black;">    
@@ -12,7 +12,7 @@ If we look at the source of the page however, a hidden message is revealed.
 <span style="font-size: 15pt; color: #4EEEE6;">/nibbleblog</span>  
 
 The Page at /nibbleblog/ shows an empty blog page.  
-<img src="https://user-images.githubusercontent.com/96850362/230315021-75ded80c-fb15-4e2a-99ec-e2af9a0cb0c9.png" alt="/nibbleblog page" style="border: 2px solid black;" width="600" height="400">  
+<img src="https://user-images.githubusercontent.com/96850362/230315021-75ded80c-fb15-4e2a-99ec-e2af9a0cb0c9.png" alt="/nibbleblog page" style="border: 2px solid black;" width="800" height="600">  
 
 
 
