@@ -118,4 +118,9 @@ button:hover i::after {
   border-radius: 10px;
   padding: 5px;
 }
+.important {
+  background-color: #D3D3D3;
+  border-radius: 10px;
+  padding: 5px;
+}
 </style>
