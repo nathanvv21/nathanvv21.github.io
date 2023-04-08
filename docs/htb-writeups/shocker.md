@@ -11,7 +11,7 @@ greeting("Alice")
 
 <style>
 table {
-  width: 70%;
+  width: 90%;
   border: 1px solid black;
   border-collapse: collapse;
 }
