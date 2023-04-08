@@ -9,7 +9,7 @@ greeting("Alice")
 table {
   width: 100%;
   border-collapse: collapse;
-  border: 10px black-translucent;
+  border: 1px #353535;
 }
 
 th, td {
