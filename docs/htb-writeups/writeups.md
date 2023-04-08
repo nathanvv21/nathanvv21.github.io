@@ -31,8 +31,8 @@ th, td {
   }
   circle{
     display: inline-block;
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     background-color: #33cc33;
     margin-right: 5px;
@@ -42,7 +42,7 @@ th, td {
 
 | <span id="linux" style="color: red;">Linux</span> | <span id="windows" style="color: blue;">Windows</span> |
 | -------- | -------- |
-| <div class=".green-circle"></div>[Nibbles](nibbles.md) | next try |
+| <div class=".green-circle"></div>[Nibbles](nibbles.md) | <circle></circle> |
 | <div class=".green-circle"></div>[Shocker](shocker.md) |  |
 
 <circle>boi</circle>
