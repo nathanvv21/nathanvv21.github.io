@@ -1,28 +1,39 @@
 
 
 Here is the list of write ups so far.  
+
 <style>
 table {
   width: 100%;
-  border: 1px solid grey;
+  border: 1px #353535;
   border-collapse: collapse;
+  font-size: 12px;
+}
+#linux {
+  font-size: 18px;
+}
+#windows {
+  font-size: 30px;
 }
 
 th, td {
   padding: 10px;
-  text-align: center;
-  border: 1px solid black;
+  border: 1px #353535;
+  text-align: center; 
 }
+.green-circle {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #33cc33;
+  margin-right: 5px;
 </style>
 
-| Column 1 | Column 2 |
-| * [Nibbles](nibbles.md) |  |
-| * [Shocker](shocker.md) |  |
-| Row 2, Column 1 |  |
+| <span id="linux" style="color: red;">Linux</span> | <span id="windows" style="color: blue;">Windows</span> |
+| -------- | -------- |
+| <div class="green-circle"></div>[Nibbles](nibbles.md) |  |
+| <div class="green-circle"></div>[Shocker](shocker.md) |  |
 
 
 
-
-
-* [Nibbles](nibbles.md)
-* [Shocker](shocker.md)
