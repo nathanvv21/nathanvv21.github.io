@@ -12,3 +12,16 @@ greeting("Alice")
 <div id="hidden-text" style="display:none">
 This text will appear after clicking the button.
 </div>
+
+
+```bash
+#!/bin/bash
+
+echo "Hello, world!"
+
+<body style="background-color: #ECECEC;">
+  <pre><code>
+  $ ./hello.sh
+  Hello, world!
+  </code></pre>
+</body>
