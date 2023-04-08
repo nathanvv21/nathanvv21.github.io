@@ -28,6 +28,7 @@ th, td {
   border-radius: 50%;
   background-color: #33cc33;
   margin-right: 5px;
+  }
 </style>
 
 | <span id="linux" style="color: red;">Linux</span> | <span id="windows" style="color: blue;">Windows</span> |
