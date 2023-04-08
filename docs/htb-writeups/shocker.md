@@ -8,20 +8,21 @@ greeting("Alice")
 <style>
 table {
   width: 100%;
-  border: 5px solid black;
+  border: 1px #353535;
   border-collapse: collapse;
   
 }
 
 th, td {
-  
+  padding: 10px;
+  border: 1px #353535;
   text-align: center; 
 }
 </style>
 
 | Column 1 | Column 2 |
 | -------- | -------- |
-| Row 1, Column 1 | help |
+| Row 1, Column 1 | nexttry |
 | Row 2, Column 1 | Row 2, Column 2 |
 
 
