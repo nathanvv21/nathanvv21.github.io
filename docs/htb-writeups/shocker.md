@@ -122,8 +122,7 @@ button:hover i::after {
   <!-- <button style="--clr:#7FFF00"><span>Button</span><i></i></button> -->
   <!-- <button style="--clr:#FF5E00"><span>Button</span><i></i></button> -->
   <button style="--clr:#39FF14"><span>Button</span><i></i></button>
-  <!-- <button style="--clr:#FF3131"><span>Button</span><i></i></button> -->
-  <!-- <button style="--clr:#1F51FF"><span>Button</span><i></i></button> -->
+
 
 </body>
 
