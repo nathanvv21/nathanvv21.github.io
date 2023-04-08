@@ -68,7 +68,7 @@ greeting("Alice")
 
 
 
-<button onclick="document.getElementById('hidden-text').style.display='flex'">Click to show text</button>
+<button onclick="document.getElementById('hidden-text').style.display='flex'">Click to</button>
 
 <div id="hidden-text" style="display:none">
 This text will appear after clicking the button.
