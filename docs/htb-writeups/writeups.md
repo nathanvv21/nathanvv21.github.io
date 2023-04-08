@@ -7,13 +7,13 @@ table {
   width: 100%;
   border: 1px #353535;
   border-collapse: collapse;
-  font-size: 12px;
-}
-#linux {
   font-size: 18px;
 }
+#linux {
+  font-size: 32px;
+}
 #windows {
-  font-size: 30px;
+  font-size: 32px;
 }
 
 th, td {
@@ -21,7 +21,7 @@ th, td {
   border: 1px #353535;
   text-align: center; 
 }
-div.green-circle {
+green-circle {
   display: inline-block;
   width: 12px;
   height: 12px;
@@ -42,8 +42,8 @@ div.green-circle {
 
 | <span id="linux" style="color: red;">Linux</span> | <span id="windows" style="color: blue;">Windows</span> |
 | -------- | -------- |
-| <div class="green-circle"></div>[Nibbles](nibbles.md) | next try |
-| <div class="green-circle"></div>[Shocker](shocker.md) |  |
+| <div class=".green-circle"></div>[Nibbles](nibbles.md) | next try |
+| <div class=".green-circle"></div>[Shocker](shocker.md) |  |
 
 <circle>boi</circle>
 
