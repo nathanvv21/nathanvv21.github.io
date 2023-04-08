@@ -13,6 +13,14 @@
 <div id="tags" style="display:none">
 <span class="tag-back">Apache</span> <span class="tag-back">Web</span> <span class="tag-back">Outdated Software</span> <span class="tag-back">Metasploit</span> <span class="tag-back">Bash</span> <span class="tag-back">Web Site Structure Discovery</span> <span class="tag-back">SUDO Exploitation</span> <span class="tag-back">Remote Code Execution</span>
 </div>                            
+<br>
+Shocker is an easy and fairly straightforward box, with a few minor challenges to overcome. The biggest hurdle when hunting for user is when directory searching as you must append a trailing slash to the wordlist in order to get results. The next step is to identify the ShellShock exploit either manually or with nmap. Root will use a simple GTFObins for Perl.
+<br>
+This Box could also have been exploited with metasploit.  
+
+
+
+
 
 
 ```python
