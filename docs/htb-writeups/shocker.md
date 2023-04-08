@@ -4,34 +4,6 @@ def greeting(name):
     
 greeting("Alice")
 ```
-<style>
-.circle {
-  display: inline-block;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  margin-right: 5px;
-}
-.green {
-  background-color: #33cc33;
-}
-
-.blue {
-  background-color: #3366cc;
-}
-
-.red {
-  background-color: #ff3300;
-}
-
-
-
-<span class="circle green"></span>  
-<span class="circle blue"></span>  
-<span class="circle red"></span>  
-<span style="color: red;">Linux</span>
-
-
 
 
 
