@@ -12,9 +12,12 @@ table {
   border-collapse: collapse;
   font-size: 12px;
 }
-#boxs{
-    font-size: 18px;
- }
+#linux {
+  font-size: 18px;
+}
+#windows {
+  font-size: 30px;
+}
 
 th, td {
   padding: 10px;
@@ -23,7 +26,7 @@ th, td {
 }
 </style>
 
-| <tr id="boxs"><td><span style="color: red;">Linux</span></td> | <td><span style="color: blue;">Windows</span></td> |
+| <span id="linux" style="color: red;">Linux</span> | <span id="windows" style="color: blue;">Windows</span> |
 | -------- | -------- |
 | Row 1, Column 1 | nexttry |
 | Row 2, Column 1 | Row 2, Column 2 |
