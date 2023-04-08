@@ -21,7 +21,7 @@ th, td {
   border: 1px #353535;
   text-align: center; 
 }
-green-circle {
+div.green-circle {
   display: inline-block;
   width: 12px;
   height: 12px;
@@ -29,12 +29,19 @@ green-circle {
   background-color: #33cc33;
   margin-right: 5px;
   }
+  circle{
+    background: #f00;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+  
 </style>
 
 | <span id="linux" style="color: red;">Linux</span> | <span id="windows" style="color: blue;">Windows</span> |
 | -------- | -------- |
-| <div class="green-circle"></div>[Nibbles](nibbles.md) | wac |
+| <div class="green-circle"></div>[Nibbles](nibbles.md) | why |
 | <div class="green-circle"></div>[Shocker](shocker.md) |  |
 
-
+<circle>boi</circle>
 
