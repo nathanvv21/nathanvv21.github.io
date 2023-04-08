@@ -9,7 +9,7 @@ greeting("Alice")
 table {
   width: 100%;
   border-collapse: collapse;
-  border: 0px solid black;
+  border: 10px black-translucent;
 }
 
 th, td {
@@ -20,6 +20,6 @@ th, td {
 
 | Column 1 | Column 2 |
 | -------- | -------- |
-| Row 1, Column 1 | taco |
+| Row 1, Column 1 | waco |
 | Row 2, Column 1 | Row 2, Column 2 |
 
