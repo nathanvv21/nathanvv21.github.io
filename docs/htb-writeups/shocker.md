@@ -8,14 +8,12 @@ greeting("Alice")
 <style>
 table {
   width: 100%;
-  border: 1px solid black;
   border-collapse: collapse;
 }
 
 th, td {
   padding: 10px;
   text-align: center; 
-  border: 0px solid black;
 }
 </style>
 
