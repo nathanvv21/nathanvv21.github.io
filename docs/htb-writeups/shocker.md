@@ -25,7 +25,7 @@ th, td {
 
  Column 1 | Column 2 
  -------- | -------- 
- <span style="color: white;">This text is red</span> | Row 1, Column 2 
+ <span style="color: white;">This text is red</span> | taco
  Row 2, Column 1 | Row 2, Column 2 
 
 
