@@ -18,6 +18,7 @@ table {
 
 th, td {
   padding: 10px;
+  text-align: center;
   border: 1px solid black;
 }
 </style>
