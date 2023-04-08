@@ -1,4 +1,3 @@
-taco
 <head>
   <link rel="stylesheet" type="text/css" href="/docs/button.css">
  </head>
@@ -10,13 +9,12 @@ taco
   <!-- <button style="--clr:#FF5E00"><span>Tags</span><i></i></button> -->
   <button onclick="document.getElementById('tags').style.display='inline'" style="--clr:#8A2BE2"><span>Tags</span><i></i></button>
 
-
 </body>
 <div id="tags" style="display:none">
 This text will appear after clicking the button.
 </div>                                                 
 
-
+<span style="background-clip: text; -webkit-text-fill-color: transparent; background-image: linear-gradient(to right, #e91e63, #ffeb3b);">Text with gradient background clip effect</span>
 
 
 ```python
