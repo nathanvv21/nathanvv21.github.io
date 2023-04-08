@@ -123,4 +123,9 @@ button:hover i::after {
   border-radius: 10px;
   padding: 5px;
 }
+.centered {
+  display: block; /* make the span a block-level element */
+  text-align: center; /* center the text within the span */
+  margin: 0 auto; /* center the span horizontally within its parent element */
+}
 </style>
