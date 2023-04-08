@@ -11,9 +11,8 @@
 
 </body>
 <div id="tags" style="display:none">
-<span class="tag-back">Apache</span> <span class="tag-back"Web</span> <span class="tag-back">Outdated Software</span> <span class="tag-back">Metasploit</span> <span class="tag-back">Bash</span> <span class="tag-back">Web Site Structure Discovery</span> <span class="tag-back">SUDO Exploitation</span> <span class="tag-back">Remote Code Execution</span>
-</div>                                            
- <span class="tag-back">taco</span>
+<span class="tag-back">Apache</span> <span class="tag-back">"Web</span> <span class="tag-back">Outdated Software</span> <span class="tag-back">Metasploit</span> <span class="tag-back">Bash</span> <span class="tag-back">Web Site Structure Discovery</span> <span class="tag-back">SUDO Exploitation</span> <span class="tag-back">Remote Code Execution</span>
+</div>                            
 
 
 ```python
