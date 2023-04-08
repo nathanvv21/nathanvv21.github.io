@@ -16,14 +16,14 @@ This text will appear after clicking the button.
 
 <span style="background-clip: text; -webkit-text-fill-color: transparent; background-image: linear-gradient(to right, #e91e63, #ffeb3b);">Text with gradient background clip effect</span>
 
-taco
+waco
 ```python
 def greeting(name):
     print("Hello, " + name + "!")
     
 greeting("Alice")
 ```
-
+<span style="background-color: #ccc; border-radius: 10px; padding: 5px;">Text with grey rounded background</span>
 
 
 <button onclick="document.getElementById('hidden-text').style.display='flex'">Click to</button>
