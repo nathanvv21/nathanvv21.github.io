@@ -21,7 +21,7 @@ th, td {
   border: 1px #353535;
   text-align: center; 
 }
-green-circle {
+.green-circle {
   display: inline-block;
   width: 12px;
   height: 12px;
