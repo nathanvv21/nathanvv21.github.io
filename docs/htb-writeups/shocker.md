@@ -4,32 +4,32 @@ def greeting(name):
     
 greeting("Alice")
 ```
-
 <style>
-table {
-  width: 100%;
-  border: 1px #353535;
-  border-collapse: collapse;
-  font-size: 12px;
+.circle {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-right: 5px;
 }
-#linux {
-  font-size: 18px;
-}
-#windows {
-  font-size: 30px;
+.green {
+  background-color: #33cc33;
 }
 
-th, td {
-  padding: 10px;
-  border: 1px #353535;
-  text-align: center; 
+.blue {
+  background-color: #3366cc;
 }
-</style>
 
-| <span id="linux" style="color: red;">Linux</span> | <span id="windows" style="color: blue;">Windows</span> |
-| -------- | -------- |
-| Row 1, Column 1 | nexttry |
-| Row 2, Column 1 | Row 2, Column 2 |
+.red {
+  background-color: #ff3300;
+}
+
+
+
+<span class="circle green"></span>  
+<span class="circle blue"></span>  
+<span class="circle red"></span>  
+<span style="color: red;">Linux</span>
 
 
 
