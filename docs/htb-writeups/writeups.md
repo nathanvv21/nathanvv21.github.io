@@ -21,7 +21,7 @@ th, td {
   border: 1px #353535;
   text-align: center; 
 }
-
+/*
 .green-circle {
   display: inline-block;
   width: 12px;
@@ -30,8 +30,8 @@ th, td {
   background-color: #33cc33;
   margin-right: 5px;
   }
-
-  circle{
+*/
+  green-circle{
     display: inline-block;
     width: 14px;
     height: 14px;
@@ -44,8 +44,6 @@ th, td {
 
 | <span id="linux" style="color: red;">Linux</span> | <span id="windows" style="color: blue;">Windows</span> |
 | -------- | -------- |
-| <div class=".green-circle"></div>[Nibbles](nibbles.md) | <circle></circle> |
-| <div class=".green-circle"></div>[Shocker](shocker.md) | <circle style="color: red;"></circle> |
+| <green-circle></green-circle>[Nibbles](nibbles.md) |  |
+| <green-circle></green-circle>[Shocker](shocker.md) |  |
 
-<circle>boi</circle>
-<div class=".green-circle"></div>
