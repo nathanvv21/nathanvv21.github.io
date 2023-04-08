@@ -8,13 +8,13 @@
 }
 
 .container {
-  width: 100%;
-  min-height: 100vh;
+  width: 10%;
+  min-height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 120px;
+  gap: 20px;
   background: #27282c;
 }
 
