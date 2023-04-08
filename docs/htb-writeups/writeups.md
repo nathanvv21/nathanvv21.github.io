@@ -30,17 +30,19 @@ div.green-circle {
   margin-right: 5px;
   }
   circle{
-    background: #f00;
-    width: 200px;
-    height: 200px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
+    background-color: #33cc33;
+    margin-right: 5px;
 }
   
 </style>
 
 | <span id="linux" style="color: red;">Linux</span> | <span id="windows" style="color: blue;">Windows</span> |
 | -------- | -------- |
-| <div class="green-circle"></div>[Nibbles](nibbles.md) | why |
+| <div class="green-circle"></div>[Nibbles](nibbles.md) | next try |
 | <div class="green-circle"></div>[Shocker](shocker.md) |  |
 
 <circle>boi</circle>
