@@ -1,3 +1,4 @@
+<span class="centered" style="font-size: 25pt; color: red;">Shocker</span> 
 <head>
   <link rel="stylesheet" type="text/css" href="/docs/button.css">
  </head>
@@ -18,8 +19,12 @@ Shocker is an easy and fairly straightforward box, with a few minor challenges t
 <br>
 This Box could also have been exploited with metasploit.  
 
+<span style="font-size: 17pt; color: #4EEEE6;">Nmap</span> 
+<br>
+The nmap scan showed port 80(http) and port 2222 which seed to be running OpenSSh 7.2p2<br>
 
-
+<img src="https://user-images.githubusercontent.com/96850362/230719286-5b32f78e-fdf4-4729-8154-1b15cec716f1.png" alt="hello world" style="border: 2px solid black;">  
+<br>
 
 
 
