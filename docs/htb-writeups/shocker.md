@@ -8,58 +8,13 @@ taco
   <!-- <button style="--clr:#FFF01F"><span>Tags</span><i></i></button> -->
   <!-- <button style="--clr:#7FFF00"><span>Tags</span><i></i></button> -->
   <!-- <button style="--clr:#FF5E00"><span>Tags</span><i></i></button> -->
-  <button style="--clr:#8A2BE2"><span>Tags</span><i></i></button>
+  <button onclick="document.getElementById('tags').style.display='inline'" style="--clr:#8A2BE2"><span>Tags</span><i></i></button>
 
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div id="tags" style="display:none">
+This text will appear after clicking the button.
+</div>                                                 
 
 
 
