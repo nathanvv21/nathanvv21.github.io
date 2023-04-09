@@ -68,18 +68,41 @@ Shellshock or CVE-2014-6271 is effectively a Remote Command Execution vulnerabil
 env x='() { :;}; echo vulnerable' bash -c "echo test"
 ```
 <br>
+I am capable of performing Shellshock testing through both manual techniques and by utilizing an nmap script. I will demonstrate both methods.  
+<br>
+<span style="font-size: 14pt; color: #F70DF1 ;">Nmap</span>  
+<br>
+nmap can be used to test for Shellshock with a script:  
+<br>
+<img src="https://user-images.githubusercontent.com/96850362/230754672-6f007139-537f-4d53-8abd-1ecaa4a2ec4f.png" alt="hello world" style="border: 2px solid black;">  
+<br>
+<span style="font-size: 14pt; color: #F70DF1 ;">Manually</span>  
+<br>
+First I will send the request <span class="important">user.sh</span> to Burp Repeater. It is worth noting that in order to view the execution of commands in the response, the "echo" command must be utilized. Additionally, it is necessary to use the full path of the command when executing commands. After some short testing, I found a working payload:  
+<br>
+<img src="https://user-images.githubusercontent.com/96850362/230754828-4e3eafc5-9176-4b93-9cf3-abb5c771a5ab.png" alt="hello world" style="border: 2px solid black;">  
+<br>
+Now that the vulnerability is confirmed, next task is to craft a payload for the reverse shell. One simple tool for reverse shells is [revshells.com](https://www.revshells.com/). I start a <span class="important">netcat</span> listener and then add a simple bash reverse shell to the User-Agent field of the http request:  
+<br>
+<img src="https://user-images.githubusercontent.com/96850362/230754954-56ad68ce-bef0-48c9-8038-423edc7b0e4d.png" alt="hello world" style="border: 2px solid black;">  
+<br>
+This web request hang and I check the listener for the reverse shell:  
+<br>
+<img src="https://user-images.githubusercontent.com/96850362/230755001-112fe7e8-f911-4c34-9d59-2867a7671040.png" alt="hello world" style="border: 2px solid black;">  
+<br>
+I then upgraded my shell the usual way and check <span class="important">user.txt</span>:  
+<br>
+<img src="https://user-images.githubusercontent.com/96850362/230755048-832c5f11-1660-4928-9c03-376dfa61f38d.png" alt="hello world" style="border: 2px solid black;">  
+<br>
+<br>
+<span style="font-size: 17pt; color: red;">Root</span>  
+<br>
+The first thing I usually do is check <span class="important">sudo -l</span> which showed the ability to run perl as root without a password:  
+<br>
+<img src="https://user-images.githubusercontent.com/96850362/230755118-38da6363-1b18-4522-ad96-cfef717ff901.png" alt="hello world" style="border: 2px solid black;">  
+<br>
+Checking [GTFOBins](https://gtfobins.github.io/gtfobins/perl/) is an easy way to abuse this misconfiguration. Checking for sudo shows a simple one liner to escalate:
+<img src="https://user-images.githubusercontent.com/96850362/230755218-ec7155a7-5672-46bd-955a-110da7e9c8a7.png" alt="hello world" style="border: 2px solid black;">  
+<br>
+And easy enough, root has been achieved.
 
-
-
-
-
-
-
-
-```python
-def greeting(name):
-    print("Hello, " + name + "!")
-    
-greeting("Alice")
-```
-rererererrere
