@@ -21,7 +21,7 @@ Overview.
 
 
 
-```fish
+```console
 ┌──(steak㉿dreadnought)-[~]
 └─$ nmap -sC -sV 10.129.247.0 -p-                                                            
 Starting Nmap 7.92 ( https://nmap.org ) at 2023-04-09 05:43 CDT
