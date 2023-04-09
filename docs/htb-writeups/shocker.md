@@ -62,6 +62,12 @@ The reason why Firefox handles this file poorly is due to the blank space betwee
 
 <span style="font-size: 17pt; color: #4EEEE6;">User Shell</span>  
 <br>
+Shellshock or CVE-2014-6271 is effectively a Remote Command Execution vulnerability in BASH. The vulnerability is due to the fact BASH wrongly executes trailing commands when a function is imported and stored in an evironment variable. This is the following POC from a post on [Exploit-DB.](https://www.exploit-db.com/docs/english/48112-the-shellshock-attack-%5Bpaper%5D.pdf?utm_source=dlvr.it&utm_medium=twitter)  
+<br>
+```bash
+env x='() { :;}; echo vulnerable' bash -c "echo test"
+```
+<br>
 
 
 
